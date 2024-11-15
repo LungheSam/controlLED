@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, #0c0c0c, #222222);
+    background-size: cover; /* Adjust this value to change stripe thickness */
+    color: white;
+    font-family:'Monsterrat', Arial, sans-serif;
+  }
+  .title {
+    color: #fff;
+  }
+
+  .bulb-container i {
+    color: yellow;
+    font-size: 10rem;
+  }
+  button {
+    padding: 1rem 2rem;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    font-family: 'Montserrat';
+  }
+ 
+  .switch.turn-on{
+    background-color: green;
+    color: white;
+    font-weight: 600;
+  }
+  .switch.turn-off{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem; /* Smaller font size for tablets */
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem; /* Even smaller font size for small screens (phones) */
+    }
+  }
+  
